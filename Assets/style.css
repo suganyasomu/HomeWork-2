@@ -1,0 +1,16 @@
+/**start Navigation**/
+.header-area{
+    border:1px solid red;
+    padding:20px;
+    margin-right: 200px;
+}
+/**End Navigation**/
+.navbar-nav{
+    font-family:"Roboto", cursive;
+    font-weight: 500;
+    padding: 10px;
+    font-size: medium;
+    color: black;
+    text-transform: uppercase;
+
+}
