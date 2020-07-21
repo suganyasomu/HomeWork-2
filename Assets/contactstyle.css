@@ -1,0 +1,19 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: rgba(242, 242, 242, .6);
+    margin: 0;
+  }
+  * {
+    box-sizing: border-box
+  }
+  .jumbotron{
+      margin-top: 30px;
+  }
+
+  button{
+      margin-top: 20px;
+  }
+
+  nav{
+      background: aqua;
+  }

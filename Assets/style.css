@@ -1,16 +1,70 @@
 /**start Navigation**/
-.header-area{
-    border:1px solid red;
-    padding:20px;
-    margin-right: 200px;
-}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: rgba(242, 242, 242, .6);
+    margin: 0;
+  }
+  * {
+    box-sizing: border-box
+  }
+
 /**End Navigation**/
 .navbar-nav{
     font-family:"Roboto", cursive;
     font-weight: 500;
-    padding: 10px;
+    padding: 2px;
+    background:#31b0d5 ;
     font-size: medium;
     color: black;
     text-transform: uppercase;
-
+    display: flex;
+    justify-content: center;
+     
 }
+
+
+
+/*JUMBOTRON*/
+main {
+    text-transform:lowercase;
+    height: 100vh; /*height to 100% of view height*/
+    background: #31b0d5; /*background color to blue*/
+    margin-bottom: 0; /*no bottom margin*/
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+  .jumbotron-text h1 {
+    /*YOUR NAME*/
+    text-transform: uppercase;
+    font-weight:1000;
+    font-size: 3em;
+    margin-bottom: 0;
+    text-align: center;
+    
+  }
+  
+  .jumbotron-text p {
+    margin: 0;
+    text-align: center;
+    
+  }
+
+  /*SOCIAL LINKS*/
+.ul-social {
+    text-align: center;
+    padding-left: 0;
+  }
+  
+  .li-social-links {
+    display: inline-block;
+    list-style: none;
+  }
+  
+  .social {
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+  }
