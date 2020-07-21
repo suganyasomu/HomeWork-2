@@ -17,3 +17,9 @@ body {
   nav{
       background: aqua;
   }
+  
+  footer{
+      line-height: 100px;
+      background: aquamarine;
+      text-align: center;
+  }
