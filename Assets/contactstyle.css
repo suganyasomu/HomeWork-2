@@ -7,10 +7,12 @@ body {
     box-sizing: border-box
   }
   .jumbotron{
-      margin-top: 30px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      width: 70%;
   }
 
-  button{
+  .btn{
       margin-top: 20px;
   }
 
@@ -22,4 +24,11 @@ body {
       line-height: 100px;
       background: aquamarine;
       text-align: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+       
   }

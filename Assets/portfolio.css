@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .navbar{
+    padding: 0px;
+    width: 100%;
+    background: #e3f2fd; 
+  }
+
+  .navbar-nav{
+    margin-left: auto ;
+    color: black;
+    
+   
+  }
+  
+  h1 {
+    font-size: 30px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+    border: 1px solid red;
+  }
+  
+  /* Add padding BETWEEN each column */
+ 
+  
+  /* Create four equal columns that floats next to each other */
+ 
+ 
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  footer{
+    line-height: 100px;
+    background: aquamarine;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: fixed;
+
+     
+}
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
