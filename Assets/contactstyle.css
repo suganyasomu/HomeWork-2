@@ -6,23 +6,66 @@ body {
   * {
     box-sizing: border-box
   }
+ 
+
   .jumbotron{
-      margin-top: 10px;
-      margin-bottom: 30px;
-      width: 70%;
+    margin-left: 50 px;
+   
+  
+    margin-top: 20px;
+   
+    margin-right: 10px;
+    margin-bottom: 120px;
+    padding: 0px;
+   
   }
 
+  .container-fluid{
+   
+    height: 70vh;
+    padding: 0px;
+    width:70%;
+   
+  }
+
+  .navbar{
+    padding: 0px;
+    width: 100%;
+    background: #e3f2fd; 
+  }
+
+  .navbar-nav{
+    margin-left: auto ;
+    color :black ; 
+text-emphasis-style: bold;
+   
+  }
+  
+  h1{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  hr{
+    background-color: gray;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .btn{
       margin-top: 20px;
+      margin-bottom: 10px;
   }
 
-  nav{
-      background: aqua;
+  form{
+      margin-left: 10px;
+     
   }
   
   footer{
       line-height: 100px;
-      background: aquamarine;
+      background: cadetblue;
       text-align: center;
       position: fixed;
       left: 0;
@@ -31,4 +74,10 @@ body {
       color: white;
       text-align: center;
        
-  }
+  } 
+  @media screen and (max-width: 500px){
+   ul li a{
+       margin-right:40px;
+       
+    } 
+}

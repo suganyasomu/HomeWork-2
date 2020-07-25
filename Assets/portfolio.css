@@ -1,23 +1,21 @@
-*{
-    box-sizing: border-box;
-  }
+body {
+  font-family: 'Raleway', sans-serif;
+  background: rgba(242, 242, 242, .6);
+  margin: 0;
+}
+* {
+  box-sizing: border-box
+}
   
-  body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-  }
+  /**start Navigation**/
   
-  /* Center website */
-  .main {
-    max-width: 1000px;
-    margin: auto;
-  }
-
   .navbar{
     padding: 0px;
+    margin: 0px;
     width: 100%;
     background: #e3f2fd; 
+  
+
   }
 
   .navbar-nav{
@@ -26,7 +24,45 @@
     
    
   }
+
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .jumbotron{
+    margin-left: 50 px;
+   
   
+    margin-top: 20px;
+   
+    margin-right: 10px;
+    margin-bottom: 120px;
+    padding: 0px;
+   
+  }
+
+  .container-fluid{
+   
+    height: 70vh;
+    padding: 0px;
+    width:70%;
+   
+  }
+  h1{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  hr{
+    background-color: gray;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+    
   h1 {
     font-size: 30px;
     word-break: break-all;
@@ -34,7 +70,7 @@
   
   .row {
     margin: 8px -16px;
-    border: 1px solid red;
+  
   }
   
   /* Add padding BETWEEN each column */
@@ -42,17 +78,35 @@
   
   /* Create four equal columns that floats next to each other */
  
- 
   
   /* Content */
-  .content {
+  .content img {
     background-color: white;
     padding: 10px;
+    height: 30vh;
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    /* right: 40%;  */
+    background: cyan;
+    width:75%;
+    height: 10vh;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: flex-end;
+  
+    
   }
 
   footer{
     line-height: 100px;
-    background: aquamarine;
+    background: cadetblue;
     text-align: center;
     left: 0;
     bottom: 0;
