@@ -10,19 +10,16 @@ body {
   /**start Navigation**/
   
   .navbar{
+    
     padding: 0px;
     margin: 0px;
     width: 100%;
-    background: #e3f2fd; 
-  
-
+    background: #e3f2fd;
   }
-
   .navbar-nav{
+    font-family:"Roboto", cursive;
     margin-left: auto ;
-    color: black;
-    
-   
+    color: black; 
   }
 
   /* Center website */
@@ -30,6 +27,8 @@ body {
     max-width: 1000px;
     margin: auto;
   }
+
+  /* jumbotron */
   .jumbotron{
     margin-left: 50px;
     margin-top: 20px;
@@ -39,6 +38,7 @@ body {
    
   }
 
+  /* Container */
   .container-fluid{
    
     height: 70vh;
@@ -70,12 +70,6 @@ body {
   
   }
   
-  /* Add padding BETWEEN each column */
- 
-  
-  /* Create four equal columns that floats next to each other */
- 
-  
   /* Content */
   .content img {
     background-color: white;
@@ -90,7 +84,7 @@ body {
   .centered {
     position: absolute;
     top: 50%;
-    /* right: 40%;  */
+    /* \\right: 40%;  */
     background: cyan;
     width:75%;
     height: 10vh;
@@ -98,9 +92,9 @@ body {
     text-align: center;
     justify-content: flex-end;
   
-    
   }
 
+  /* Footer */
   footer{
     line-height: 100px;
     background: cadetblue;
@@ -115,7 +109,7 @@ body {
      
 }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* Responsive layout */
   @media screen and (max-width: 900px) {
     .column {
       width: 50%;

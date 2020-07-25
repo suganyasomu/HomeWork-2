@@ -7,7 +7,8 @@ body {
     box-sizing: border-box
   }
  
- 
+  
+ /* jumbotron */
   .jumbotron{
     margin-left: 50px;
     margin-top: 20px;
@@ -17,6 +18,7 @@ body {
    
   }
 
+  /* Container */
   .container-fluid{
    
     height: 70vh;
@@ -52,28 +54,27 @@ hr{
   }
 
   .navbar-nav{
+    font-family:"Roboto", cursive;
     margin-left: auto ;
-    color: black;
-    
-   
+    color: black; 
   }
 
 /**End Navigation**/
   
   .img-thumbnail{
-    
     height: 200px;
     width: 60%;
     margin-left: 70px;
     border:1px solid gray;
-    
     
   }
 
   #content p{
    margin-right: 20px;
  }
-  
+
+
+ /* Footer  */
   footer{
     line-height: 100px;
     background: cadetblue;
@@ -84,7 +85,6 @@ hr{
     color: white;
     text-align: center;
     position: fixed;
-  
        
   }
 

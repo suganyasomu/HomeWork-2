@@ -7,7 +7,7 @@ body {
     box-sizing: border-box
   }
  
-
+/* jumbotron */
   .jumbotron{
     margin-left: 50px;
     margin-top: 20px;
@@ -17,14 +17,15 @@ body {
    
   }
 
+  /* Container */
   .container-fluid{
-   
     height: 70vh;
     padding: 0px;
     width:70%;
    
   }
 
+  /* Navigation Starts here */
   .navbar{
     padding: 0px;
     width: 100%;
@@ -32,10 +33,12 @@ body {
   }
 
   .navbar-nav{
+    font-family:"Roboto", cursive;
     margin-left: auto ;
     color :black ;
    
   }
+  /* navigation ends here */
   
   h1{
     padding: 10px;
@@ -58,6 +61,8 @@ body {
       margin-left: 10px;
      
   }
+
+  /* Footer */
   
   footer{
       line-height: 100px;
@@ -71,6 +76,8 @@ body {
       text-align: center;
        
   } 
+
+  
   @media screen and (max-width: 500px){
    ul li a{
        margin-right:40px;
