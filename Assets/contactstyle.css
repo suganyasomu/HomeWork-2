@@ -16,6 +16,10 @@ body {
     padding: 0px;
    
   }
+  .jumbotron-text{
+    background: cadetblue;
+    margin-left: 70px;
+  }
 
   /* Container */
   .container-fluid{
@@ -42,7 +46,7 @@ body {
   
   h1{
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 10px;
   }
 

@@ -38,6 +38,11 @@ body {
    
   }
 
+  .jumbotron-text{
+    background: cadetblue;
+    margin-left: 70px;
+  }
+
   /* Container */
   .container-fluid{
    
