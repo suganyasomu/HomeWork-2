@@ -9,11 +9,8 @@ body {
  
 
   .jumbotron{
-    margin-left: 50 px;
-   
-  
+    margin-left: 50px;
     margin-top: 20px;
-   
     margin-right: 10px;
     margin-bottom: 120px;
     padding: 0px;
@@ -36,8 +33,7 @@ body {
 
   .navbar-nav{
     margin-left: auto ;
-    color :black ; 
-text-emphasis-style: bold;
+    color :black ;
    
   }
   
