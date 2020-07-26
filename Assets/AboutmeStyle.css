@@ -106,8 +106,10 @@ hr{
           margin-right:40px;
         width: 100%;
        } 
-       div h2{
-         
-       }
+      @media screen and (max-width: 500px) {
+        .container-fluid {
+          width: 100%;
+        }
   }
+}
 
