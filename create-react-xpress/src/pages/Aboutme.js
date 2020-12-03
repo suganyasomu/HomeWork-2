@@ -1,15 +1,15 @@
 import React from "react";
-import  "./AboutmeStyle.css";
+import  "./Aboutme.css";
 
 import Row from "../components/Row";
-import Col from "../components/Col"
+import Col from "../components/Col";
 
-function Aboutme(){
+function AboutMe(){
 return(
    
     
-    // <section className="jumbotron" id="Jumbotron_id">
-<div>
+    
+<div className="about">
       <Row>
         <Col size="md-12">
 
@@ -46,4 +46,4 @@ return(
 );
 }
 
-export default Aboutme
+export default AboutMe

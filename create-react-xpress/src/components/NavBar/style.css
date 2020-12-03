@@ -1,43 +1,23 @@
-body {
-    font-family: 'Raleway', sans-serif;
-    background: rgba(242, 242, 242, .6);
-    margin: 0;
-  }
 
-  * {
-    box-sizing: border-box
-  }
 
-  /*CONTENT*/
 
-  .container-fluid {
-  /*sets up flexbox*/
-  display: flex;
-  flex-direction: column;
+
+
+
+.navbar {
   padding: 0px;
+  width: 100%;
+  background: #e3f2fd;
 }
 
-/**start Navigation**/
-
-  .navbar{
-    padding: 0px;
-    width: 100%;
-    background-color: #e3f2fd;
-  }
-
-
-.navbar-nav{
-    font-family:"Roboto", cursive;
-    font-weight: 500;
-    padding: 2px;
-    font-size: medium;
-    color: black;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    width: 100%; 
-    margin-right: 70px;
+.navbar-nav {
+  font-family: "Roboto", cursive;
+  margin-left: 70%;
+  color: black;
 }
+
+
+
 
 .navbar-brand img{
   height:10vh;
@@ -47,50 +27,11 @@ body {
 
 
 
-/*JUMBOTRON*/
-.jumbotron {
-    text-transform:lowercase;
-    height: 100vh; /*height to 100% of view height*/
-    background-color: #31b0d5 !important; /*background color to blue*/
-    margin-bottom: 0; /*no bottom margin*/
-    display: flex;
-    flex-direction: column;
-    color: white;
-    margin-top: 0;
-    
-  }
 
-   h1 {
-    /*YOUR NAME*/
-    text-transform: uppercase;
-    font-size: 3em;
-    margin-bottom: 0;
-    text-align: center;
-    
-  }
-  
-  .jumbotron-text p {
-    margin: 0;
-    text-align: center;
-    
-  }
 
-  /*SOCIAL LINKS*/
-.ul-social {
-    text-align: center;
-    padding-left: 0;
-  }
   
-  .li-social-links {
-    display: inline-block;
-    list-style: none;
-  }
-  
-  .social {
-    font-size: 2em;
-    color: white;
-    padding: 20px;
-  }
+
+
 
 
   

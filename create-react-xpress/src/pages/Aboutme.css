@@ -9,19 +9,10 @@ body {
 }
 
 
-/* jumbotron */
-.jumbotron {
-  margin-left: 50px;
-  margin-top: 20px;
-  margin-right: 10px;
-  margin-bottom: 120px;
-  padding: 0px;
-
-}
-
-.jumbotron-text {
-  background: cadetblue;
-  margin-left: 70px;
+.about{
+ border-radius:10px;
+ margin-right:10px;
+ margin-left:10px;
 }
 
 /* Container */
@@ -52,19 +43,7 @@ hr {
   margin-right: 10px;
 }
 
-/**start Navigation**/
-
-.navbar {
-  padding: 0px;
-  width: 100%;
-  background: #e3f2fd;
-}
-
-.navbar-nav {
-  font-family: "Roboto", cursive;
-  margin-left: auto;
-  color: black;
-}
+/**start Navigation**
 
 /**End Navigation**/
 

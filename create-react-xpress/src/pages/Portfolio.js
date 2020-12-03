@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import Row from "../components/Row";
-import Col from "../components/Col"
+import Col from "../components/Col";
 function Portfolio(){
 return(
     // <main className="container-fluid">

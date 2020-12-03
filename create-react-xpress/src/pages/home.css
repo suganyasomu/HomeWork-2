@@ -48,7 +48,7 @@ body {
 
 
 /*JUMBOTRON*/
-.jumbotron {
+.body {
     text-transform:lowercase;
     height: 100vh; /*height to 100% of view height*/
     background-color: #31b0d5 !important; /*background color to blue*/
@@ -75,21 +75,13 @@ body {
     
   }
 
-  /*SOCIAL LINKS*/
-.ul-social {
-    text-align: center;
-    padding-left: 0;
-  }
-  
-  .li-social-links {
-    display: inline-block;
-    list-style: none;
-  }
+
   
   .social {
-    font-size: 2em;
+    font-size:1.5em;
     color: white;
     padding: 20px;
+    text-align:center;
   }
 
 

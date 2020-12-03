@@ -1,5 +1,5 @@
 import React from "react";
-import "./contactStyle.css"
+import "./contact.css"
 import Row from "../components/Row";
 import Col from "../components/Col";
 

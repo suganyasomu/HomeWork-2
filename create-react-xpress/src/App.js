@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Aboutme from "./pages/Aboutme";
+import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
@@ -20,7 +20,7 @@ function App() {
         <Container>
         <Jumbotron>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={Aboutme} />
+          <Route exact path="/about" component={AboutMe} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/portfolio" component={Portfolio} />
           </Jumbotron>
