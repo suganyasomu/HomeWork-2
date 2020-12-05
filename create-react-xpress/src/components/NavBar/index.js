@@ -6,7 +6,7 @@ import "./style.css";
 function Navbar() {
   return (
 
-<nav className="navbar navbar-expand-sm">
+<nav className="navbar navbar-expand-sm navbar-light bg-light">
 
 <span className="navbar-brand mb-0 h1"><img
     src="https://st3.depositphotos.com/26374354/33252/v/450/depositphotos_332520406-stock-illustration-initials-s-or-ss-logo.jpg"
