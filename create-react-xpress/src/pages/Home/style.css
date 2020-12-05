@@ -60,6 +60,18 @@ body {
     
   }
 
+  .jumbotron {
+    text-transform:lowercase;
+    /* height: 100vh;  */
+    background-color: #31b0d5 !important; /*background color to blue*/
+   
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin:0;
+    
+  }
+
    h1 {
     /*YOUR NAME*/
     text-transform: uppercase;

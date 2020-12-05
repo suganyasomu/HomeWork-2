@@ -1,12 +1,15 @@
 import React from "react";
-import "./contact.css"
-import Row from "../components/Row";
-import Col from "../components/Col";
+import "./style.css"
+
+import Row from "../../components/Row";
+import Col from "../../components/Col";
+import Jumbotron from "../../components/Jumbotron";
 
 function Contact(){
 return(
     //  <main className="container-fluid">
     // <section className="jumbotron">
+    <Jumbotron>
     <div>
       <Row>
         <Col size="md-12">
@@ -39,8 +42,8 @@ return(
 
       </form>
 </div>
-    // </section>
-//   </main>
+  
+</Jumbotron>
 );
 }
 

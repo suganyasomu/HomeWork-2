@@ -30,12 +30,12 @@ body {
 
   /* jumbotron */
   .jumbotron{
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 20px;
     margin-right: 10px;
     margin-bottom: 120px;
     padding: 0px;
-   
+  
   }
 
   /* .jumbotron-text{
@@ -93,7 +93,7 @@ body {
     position: absolute;
     top: 70%;
     background: darkgray;
-    width:75%;
+    width:65%;
     height: 7vh;
     margin-left: 30px;
     text-align: center;
@@ -101,24 +101,12 @@ body {
   
   }
 
-  /* Footer */
-  footer{
-    line-height: 100px;
-    background: cadetblue;
-    text-align: center;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-    position: fixed;
 
-     
-}
   
   /* Responsive layout */
   @media screen and (max-width: 500px) {
     .container-fluid {
       width: 100%;
     }
+   
   }

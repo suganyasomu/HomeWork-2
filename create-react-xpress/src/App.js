@@ -16,16 +16,16 @@ function App() {
     <Router>
       <div>
         <NavBar />
-        <Wrapper>
+        {/* <Wrapper> */}
         <Container>
-        <Jumbotron>
+       {/* <Jumbotron> */}
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={AboutMe} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/portfolio" component={Portfolio} />
-          </Jumbotron>
+          {/* </Jumbotron> */}
        </Container>
-        </Wrapper>
+        {/* </Wrapper> */}
 
         <Footer />
       </div>

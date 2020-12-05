@@ -54,20 +54,18 @@ body {
      
   }
 
+  .jumbotron{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+  
+  }
+
   /* Footer */
   
-  footer{
-      line-height: 100px;
-      background: cadetblue;
-      text-align: center;
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      color: white;
-      text-align: center;
-       
-  } 
+  
 
   
   @media screen and (max-width: 500px){

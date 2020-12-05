@@ -1,10 +1,12 @@
 import React from "react";
-import "./portfolio.css";
-import Row from "../components/Row";
-import Col from "../components/Col";
+import "./style.css";
+import Row from "../../components/Row";
+import Col from "../../components/Col";
+import Jumbotron from "../../components/Jumbotron";
 function Portfolio(){
 return(
     // <main className="container-fluid">
+    <Jumbotron>
     <div>
       <h1>Portfolio</h1>
       <hr/>
@@ -62,7 +64,7 @@ return(
 
     </div>
 
-//   </main>
+    </Jumbotron>
 );
 }
 

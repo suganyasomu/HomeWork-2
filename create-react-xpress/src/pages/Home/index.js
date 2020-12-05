@@ -1,9 +1,11 @@
 import React from "react";
-import "./home.css"
+import "./style.css"
+import Jumbotron from "../../components/Jumbotron"
 
 function Home(){
 return(
     // <main className="container-fluid">
+
     <div className="body">
       <div className="jumbotron-text">
         <h1>Suganya Somu</h1>
@@ -33,8 +35,8 @@ return(
           ></a>
         </div>
     </div>
+  
 
-//   </main>
 );
 }
 
